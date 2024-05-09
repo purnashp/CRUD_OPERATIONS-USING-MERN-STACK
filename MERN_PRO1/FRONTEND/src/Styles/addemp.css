@@ -1,0 +1,113 @@
+.addemp {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #D4279A, #191154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addemp .cont {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+}
+
+.addemp .form h1 {
+    position: absolute;
+    top: 0vh;
+    left: 5vh;
+    text-transform: uppercase;
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.addemp .form {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.addemp .form label {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.addemp .form input {
+    margin: 0 0 7px 0;
+    display: block;
+    width: 50vh;
+    height: 5vh;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.addemp .form input:focus {
+    border: solid 2px white;
+}
+
+.addemp .logo {
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.addemp img {
+    height: 100%;
+    width: 100%;
+    filter: blur(4px);
+    -webkit-filter: blur(3px);
+}
+
+.addemp .logo h1 {
+    position: absolute;
+    top: 65vh;
+    left: 5vh;
+    color: white;
+    width: 80%;
+    text-align: justify;
+}
+
+.addemp .form button {
+    height: 5vh;
+    width: 10vh;
+    display: block;
+    margin-top: 2vh;
+    margin-left: 40vh;
+    border: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.addemp .can {
+    height: 5vh;
+    width: 10vh;
+    position: absolute;
+    right: 50vh;
+    bottom: 7.2vh;
+    border: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.addemp .form button:active ,.addemp .can:active {
+   transform: scale(1.05);
+}

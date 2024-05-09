@@ -1,0 +1,79 @@
+.landingpage {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #D4279A, #191154);
+}
+
+.landingpage .header {
+    height: 10vh;
+    width: 100%;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.319);
+}
+
+.landingpage .header h1 {
+    padding: 40px 0 0 50px;
+    color: aqua;
+}
+
+.landingpage .bottom {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.landingpage .img {
+    height: 85vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingpage .img img {
+    height: 90vh;
+}
+
+.landingpage .text {
+    height: 85vh;
+    width: 40%;
+}
+
+.landingpage .text h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+.landingpage .text h1 span{
+    font-weight: 600;
+}
+.landingpage .text hr {
+    width: 40%;
+    margin: 50px 0 0 160px;
+}
+.landingpage .text p{
+    width: 70%;
+    font-size: 20px;
+    margin: 60px 0 0 0;
+    text-align: right;
+    color: rgba(211, 129, 243, 0.601);
+
+}
+.landingpage .text button{
+   height: 7vh;
+   width: 25vh;
+   border-radius: 30px;
+   display: block;
+   margin: 50px auto; 
+   background: blue;
+   border: none;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+}
+.landingpage .text button:active{
+    transform: scale(1.04);
+}

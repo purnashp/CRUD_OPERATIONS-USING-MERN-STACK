@@ -1,0 +1,94 @@
+.emp-file {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #D4279A, #191154);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.emp-file .cont {
+    height: 80vh;
+    width: 90%;
+    border: solid 1px white;
+    background: rgba(255, 255, 255, 0.236);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(255, 255, 255, 0.115);
+}
+.emp-file table{
+    width: 100%;
+
+}
+.emp-file table thead tr{
+   height: 10vh;
+   width: 100%;
+   background-color: rgba(255, 255, 255, 0.262);
+}
+.emp-file thead th{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.emp-file tbody{
+    overflow-y: scroll;
+}
+.emp-file tbody td{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+}
+.emp-file .add button{
+    position: absolute;
+    text-transform: capitalize;
+    top: 4vh;
+    right: 25vh;
+    height: 5vh;
+    width: 18vh;
+    border-radius: 25px;
+    background: blue;
+    border: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold
+}
+.emp-file .add button:active{
+    transform: scale(1.04);
+}
+
+.emp-file .back button{
+    position: absolute;
+    text-transform: capitalize;
+    top: 4vh;
+    right: 12vh;
+    height: 5vh;
+    width: 10vh;
+    border-radius: 25px;
+    background: blue;
+    border: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold
+}
+.emp-file .back button:active{
+    transform: scale(1.04);
+}
+.emp-file tbody td button{
+    height: 3vh;
+    border: none;
+    width: 7vh;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.emp-file .e{
+   color: greenyellow;
+}
+.emp-file .d{
+    color: red;
+ }
